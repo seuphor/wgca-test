@@ -54,20 +54,24 @@
 	padding: 0 40px 0 40px;
 }
 
-.feature-button {
-	position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 .gallery-index {
 	margin: 8rem auto;
 }
 
-.feature-button-right {
+.feature-ri h1 {
+	text-align: right;
+}
+
+.feature-ri button {
 	position: absolute;
-    bottom: 0;
-    right: 0;
+	right: 0px;
+	bottom: 0px;
+}
+
+.feature-le button {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
 }
 
 .feature-img {
