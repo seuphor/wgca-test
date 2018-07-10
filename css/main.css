@@ -62,13 +62,13 @@
 	text-align: right;
 }
 
-.feature-ri button {
+.feature-ri {
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
 }
 
-.feature-le button {
+.feature-le{
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
