@@ -58,17 +58,13 @@
 	margin: 8rem auto;
 }
 
-.feature-ri h1 {
-	text-align: right;
-}
-
 .feature-ri {
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
 }
 
-.feature-le{
+.feature-le {
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
