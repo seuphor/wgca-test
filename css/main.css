@@ -60,6 +60,10 @@
     left: 0;
 }
 
+.gallery-index {
+	margin: 8rem auto;
+}
+
 .feature-button-right {
 	position: absolute;
     bottom: 0;
@@ -80,10 +84,43 @@
     margin: 0 auto;
     margin-top: 20px;
   }
+
+  .feature-title {
+  	text-align: center;
+  }
+
+  .hide-btn {
+  	display: none;
+  }
+
+  .hide-div {
+  	display: none;
+  }
+}
+
+.btm-ul {
+	list-style: none;
+	padding: 0;
+}
+.btm-ul li {
+	margin-top: 15px;
+	color: #c4c4c4;
+}
+
+.hide-div p {
+	color: #c4c4c4;
+}
+
+h5 {
+	margin-bottom: 30px;
 }
 
 .social-icon {
 	width: 20px;
 	height: 20px;
 	object-fit: cover;
+}
+
+.hr-seperator {
+	margin: 5rem 0;
 }
