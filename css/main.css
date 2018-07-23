@@ -29,6 +29,10 @@
 	height: 14rem;
 
 }
+.placeholder-img:hover {
+	cursor: pointer;
+
+}
 
 .placeholder-small-img {
 	margin: 0 auto;

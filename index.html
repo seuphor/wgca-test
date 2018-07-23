@@ -1,243 +1,159 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-</head>
-<body>
-	<nav class="navbar navbar-expand-md navbar-light bg-light">
-		<div class="container">
-			<a class="navbar-brand" href="./">Name</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav mr-auto">
-						<li class="nav-item"><a class="nav-link" href="./team">About</a></li>
-						<li class="nav-item"><a class="nav-link" href="./contact">Contact</a></li>
-						<li class="nav-item"><a class="nav-link" href="./blog">Blog</a></li>		
-					</ul>
+---
+layout: default
+---
 
-					<ul class="navbar-nav navbar-right">
-						<li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Login</a></li>
-					</ul>
-			</div>
-		</div>
-	</nav>
+{% include nav.html %}
 
-	<div class="jumbotron">
-		<div class="container text-center">
-			<h1>Title</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.</p>
-			<button class="btn btn-primary">Primary</button>
-		</div>
-		
-		
+<div class="jumbotron">
+	<div class="container text-center">
+		<h1>Title</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		<button class="btn btn-primary">Primary</button>
 	</div>
-
-	<div class="container">
-		<h2 class="text-center">Summary</h2>
-		<div class="row">
-			<div class="pt-4 col-md-4 text-center">
-				<i class="fas fa-2x fa-archive py-4"></i>
-				<h4 class="py-2">Project</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			</div>
-			<div class="pt-4 col-md-4 text-center">
-				<i class="fas fa-2x fa-archive py-4"></i>
-				<h4 class="py-2">Project</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			</div>
-			<div class="pt-4 col-md-4 text-center">
-				<i class="fas fa-2x fa-archive py-4"></i>
-				<h4 class="py-2">Project</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			</div>
-		</div>
-		<p class="text-center pt-5">Interested? <a href="#">More</a></p>
-<!-- 		<div class="row">
-			<div class="col-md-2 test"></div>
-			<div class="col-md-2 test"></div>
-			<div class="col-md-2 test"></div>
-			<div class="col-md-2 test"></div>
-			<div class="col-md-2 test"></div>
-			<div class="col-md-2 test"></div>
-		</div> -->
-	</div>
-<div class="container gallery-index">
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="http://placekitten.com/g/800/400" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="http://placekitten.com/g/800/400" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="http://placekitten.com/g/800/400" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
 	
-<!-- 	<div class="container">
-		<div class="row">
-			<div class="col-md-12 d-flex justify-content-center">
-				<img class="social-icon mx-3" src="img/fb.jpg">
-				<img class="social-icon mx-3" src="img/fb.jpg">
-				<img class="social-icon mx-3" src="img/fb.jpg">
-			</div>
+	
+</div>
+
+<div class="container">
+	<h2 class="text-center">Summary</h2>
+	<div class="row">
+		<div class="pt-4 col-md-4 text-center">
+			<i class="fas fa-2x fa-archive py-4"></i>
+			<h4 class="py-2">Project</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 		</div>
-		
+		<div class="pt-4 col-md-4 text-center">
+			<i class="fas fa-2x fa-archive py-4"></i>
+			<h4 class="py-2">Project</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+		<div class="pt-4 col-md-4 text-center">
+			<i class="fas fa-2x fa-archive py-4"></i>
+			<h4 class="py-2">Project</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+	<p class="text-center pt-5">Interested? <a href="#">More</a></p>
+<!-- 		<div class="row">
+		<div class="col-md-2 test"></div>
+		<div class="col-md-2 test"></div>
+		<div class="col-md-2 test"></div>
+		<div class="col-md-2 test"></div>
+		<div class="col-md-2 test"></div>
+		<div class="col-md-2 test"></div>
 	</div> -->
+</div>
+<div class="container gallery-index">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+</ol>
 
-	<div class="container mt-5">
-		<div class="row feature-area">
-			<div class="col-lg-7 col-md-12 feature-left">
-				<div class="">
-					<h1 class="feature-title">Title</h1>
-					<div class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-					<button type="button" class="feature-le hide-btn btn btn-outline-warning">></button>
-				</div>
-			</div>
-			<div class="col-lg-5 col-md-12 img-div">
-				<!-- <div class="test3 img-thumbnail"></div> -->
-				<img src="http://placekitten.com/g/700/1000" class="img-thumbnail feature-img">
-			</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+  <img class="d-block w-100" src="http://placekitten.com/g/800/400" alt="First slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="http://placekitten.com/g/800/400" alt="Second slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="http://placekitten.com/g/800/400" alt="Third slide">
+</div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+<!-- 	<div class="container">
+	<div class="row">
+		<div class="col-md-12 d-flex justify-content-center">
+			<img class="social-icon mx-3" src="img/fb.jpg">
+			<img class="social-icon mx-3" src="img/fb.jpg">
+			<img class="social-icon mx-3" src="img/fb.jpg">
 		</div>
 	</div>
+	
+</div> -->
 
-	<div class="container">
-		<div class="row feature-area">
-			<div class="col-lg-7 order-lg-2 feature-left">
-				<div class="">
-					<h1 class="feature-title text-right">Title</h1>
-					<div class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-					<button type="button" class="feature-ri hide-btn btn btn-outline-warning"><</button>
-				</div>
+<div class="container mt-5">
+	<div class="row feature-area">
+		<div class="col-lg-7 col-md-12 feature-left">
+			<div class="">
+				<h1 class="feature-title">Title</h1>
+				<div class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+				<button type="button" class="feature-le hide-btn btn btn-outline-warning">></button>
 			</div>
-			<div class="col-lg-5 order-lg-1 img-div">
-				<!-- <div class="test3 img-thumbnail"></div> -->
-				<img src="http://placekitten.com/g/700/1000" class="img-thumbnail feature-img">
-			</div>
+		</div>
+		<div class="col-lg-5 col-md-12 img-div">
+			<!-- <div class="test3 img-thumbnail"></div> -->
+			<img src="http://placekitten.com/g/700/1000" class="img-thumbnail feature-img">
 		</div>
 	</div>
+</div>
 
-	<div class="container">
-		<div class="row feature-area">
-			<div class="col-lg-7 col-md-12 feature-left">
-				<div class="">
-					<h1 class="feature-title">Title</h1>
-					<div class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-					<button type="button" class="feature-le hide-btn btn btn-outline-warning">></button>
-				</div>
+<div class="container">
+	<div class="row feature-area">
+		<div class="col-lg-7 order-lg-2 feature-left">
+			<div class="">
+				<h1 class="feature-title text-right">Title</h1>
+				<div class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+				<button type="button" class="feature-ri hide-btn btn btn-outline-warning"><</button>
 			</div>
-			<div class="col-lg-5 col-md-12 img-div">
-				<!-- <div class="test3 img-thumbnail"></div> -->
-				<img src="http://placekitten.com/g/700/1000" class="img-thumbnail feature-img">
-			</div>
+		</div>
+		<div class="col-lg-5 order-lg-1 img-div">
+			<!-- <div class="test3 img-thumbnail"></div> -->
+			<img src="http://placekitten.com/g/700/1000" class="img-thumbnail feature-img">
 		</div>
 	</div>
+</div>
 
-	<hr class='hr-seperator'>
-	<div class="container">
-		<div class="row">
-			<div class="hide-div col-md-4">
-				<h5>Company</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p>
+<div class="container">
+	<div class="row feature-area">
+		<div class="col-lg-7 col-md-12 feature-left">
+			<div class="">
+				<h1 class="feature-title">Title</h1>
+				<div class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+				<button type="button" class="feature-le hide-btn btn btn-outline-warning">></button>
 			</div>
-			<div class="col-lg-2 col-md-3">
-				<h5>First</h5>
-				<ul class="btm-ul">
-					<li>Manu One</li>
-					<li>Manu One</li>
-					<li>Manu One</li>
-				</ul>
-			</div>
-			<div class="col-lg-2 col-md-3">
-				<h5>First</h5>
-				<ul class="btm-ul">
-					<li>Manu One</li>
-					<li>Manu One</li>
-					<li>Manu One</li>
-				</ul>
-			</div>
-			<div class="col-lg-2 col-md-3">
-				<h5>First</h5>
-				<ul class="btm-ul">
-					<li>Manu One</li>
-					<li>Manu One</li>
-					<li>Manu One</li>
-				</ul>
-			</div>
-			<div class="col-lg-2 col-md-3">
-				<h5>Get Updates</h5>
-				<input type="text" class="p-1 form-control" placeholder="Email">
-				<button type="button" class="mt-2 p-1 btn btn-primary">Primary</button>
-			</div>
+		</div>
+		<div class="col-lg-5 col-md-12 img-div">
+			<!-- <div class="test3 img-thumbnail"></div> -->
+			<img src="http://placekitten.com/g/700/1000" class="img-thumbnail feature-img">
 		</div>
 	</div>
+</div>
 
-	<hr class='hr-seperator'>
 
-	<div class="container">
-		<div class="row my-4">
-			<div class="col-md-12 text-center">
-				<img class="social-icon mx-3" src="img/fb.jpg">
-				<img class="social-icon mx-3" src="img/google.jpg">
-				<img class="social-icon mx-3" src="img/ins.jpg">
-				<img class="social-icon mx-3" src="img/twitter.jpg">
-			</div>	
-		</div>
-		<div class="row my-5">
-			<div class="col-md-12 text-center">
-				<p>@ 2018 WorldView Global Culture Alliance All Rights Reserve</p>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
+
+
+{% include footer.html %}
